@@ -1,0 +1,110 @@
+body {
+  font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
+  background: #f7f8fc;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4f4fa2;
+  padding: 1rem 2rem;
+}
+
+.navbar-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.navbar-links a {
+  margin-left: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar-links a:hover {
+  color: #ffe066;
+}
+
+.hero {
+  text-align: center;
+  padding: 2.5rem 1rem;
+  background: #eef0fe;
+  color: #333;
+}
+
+.hero h1 {
+  margin-bottom: 0.3rem;
+  font-size: 2.3rem;
+}
+
+.about, .skills, .projects, .certifications, .contact {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 16px #cdd1f580;
+}
+
+.about h2, .skills h2, .projects h2, .certifications h2, .contact h2 {
+  color: #4f4fa2;
+}
+
+.skills ul, .certifications ul {
+  padding-left: 1.2rem;
+}
+
+.skills li, .certifications li {
+  margin-bottom: 0.5rem;
+}
+
+.project-card {
+  background: #f3f4fa;
+  border-left: 4px solid #4f4fa2;
+  padding: 1rem 1rem 0.7rem 1.2rem;
+  margin-bottom: 1.1rem;
+  border-radius: 6px;
+}
+
+.contact form {
+  margin-top: 1rem;
+}
+
+.contact input, .contact textarea {
+  width: 95%;
+  padding: 0.65rem;
+  margin-bottom: 1rem;
+  border: 1px solid #d4d4d4;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.contact button {
+  background: #4f4fa2;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 2.2rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.contact button:hover {
+  background: #353574;
+}
+
+footer {
+  text-align: center;
+  padding: 1.2rem 0 2rem 0;
+  color: #aaa;
+  font-size: 0.96rem;
+}
